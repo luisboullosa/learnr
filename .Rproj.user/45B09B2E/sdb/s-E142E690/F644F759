@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Does Stuff\"\nauthor: \"Luis Boullosa\"\ndate: \"`r Sys.Date()`\"\noutput: rmarkdown::html_vignette\nvignette: >\n  %\\VignetteIndexEntry{Vignette Title}\n  %\\VignetteEngine{knitr::rmarkdown}\n  %\\VignetteEncoding{UTF-8}\n---\n\n\n\n## Description\n\nWith do_stuff, you can do stuff with your data as follows:\n\n```{r}\nlibrary(learnr)\nxs <- 1:50\nys <- do_stuff(xs)\nplot(x = xs, y = ys)\n```\n",
+    "created" : 1481539553858.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "810581949",
+    "id" : "F644F759",
+    "lastKnownWriteTime" : 1481540118,
+    "last_content_update" : 1481540118634,
+    "path" : "D:/Dropbox/R/learnr/vignettes/do_stuff.Rmd",
+    "project_path" : "vignettes/do_stuff.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

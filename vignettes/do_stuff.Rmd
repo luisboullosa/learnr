@@ -1,0 +1,23 @@
+---
+title: "Does Stuff"
+author: "Luis Boullosa"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+
+## Description
+
+With do_stuff, you can do stuff with your data as follows:
+
+```{r}
+library(learnr)
+xs <- 1:50
+ys <- do_stuff(xs)
+plot(x = xs, y = ys)
+```

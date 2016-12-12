@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#' Returns the number squared,\n#'   except 42, which stays as 42\n#' @param x input, must be numeric\n#' @return stuffed output\n#' @export\n\ndo_stuff <- function(x){\n\n  if (!is.numeric(x)) {\n    stop(\"x must be numeric\");\n  }\n\n  out = x * x;\n  out = replace(out, out == 1764, 42);\n\n  out;\n}\n\n\n",
+    "created" : 1481204440140.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4208033853",
+    "id" : "A75F9581",
+    "lastKnownWriteTime" : 1481539468,
+    "last_content_update" : 1481539468899,
+    "path" : "D:/Dropbox/R/learnr/R/do_stuff.R",
+    "project_path" : "R/do_stuff.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
